@@ -1,0 +1,139 @@
+
+
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:lightgray;
+}
+
+h2
+{
+  text-align: center;
+  font-size: 30px;
+}
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  height:38px;
+  background:#ff0b0b;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+
+header{
+  background:#604623;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#ff0b0b 5px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #world{
+  float:left;
+}
+
+header #world h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#ff0000;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#e39696;
+  font-weight:bold;
+}
+
+#page{
+  color:#ffffff;
+  background:#604623;
+}
+
+#page h1{
+  float:left;
+}
+
+#page form {
+  float:right;
+  margin-top:15px;
+}
+
+#page input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#604623;
+  text-align: center;
+}
+
+.containerr{
+  max-width:1200px;
+  margin: auto;
+  overflow: auto;
+  margin-left: 60px;
+
+
+}
+
+.video{
+  margin: 10px;
+  float: left;
+  width:550px;
+  border: 1px solid #ccc;
+
+}
+
+iframe{
+  width:100%;
+ 
+
+}
+
+.desc{
+  padding: 15px;
+  text-align: center;
+}

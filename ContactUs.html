@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="ContactUS.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="world">
+          <h1><span class="highlight" >EDM</span> WORLD</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Events.html">Events</a></li>
+            <li><a href="Images.html">Images</a></li>
+            <li><a href="Videos.html">Videos</a></li>
+            <li class="current"><a href="ContactUs.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+   
+      <h4>Contact Us</h4>
+    <div class="contactus">
+      <form action="/contact_us.php">
+        <div class="contact">
+          <div class="column1">
+            <label for="ftname">First Name</label>
+          </div>
+          <div class="column2">
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          </div>
+        </div>
+        <div class="contact">
+          <div class="column1">
+            <label for="ltname">Last Name</label>
+          </div>
+          <div class="column2">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          </div>
+        </div>
+        <div class="contact">
+          <div class="column1">
+            <label for="email">Email</label>
+          </div>
+          <div class="column2">
+            <input type="email" id="emailID" name="email" placeholder="Enter your Email..">
+          </div>
+        </div>
+        <div class="contact">
+          <div class="column1">
+            <label for="desc">Provide Brief Description:</label>
+          </div>
+          <div class="column2">
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="contact">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+    
+    <section Id="page">
+      <div class="container">
+        <h1>Subscribe to our page</h1>
+        <form>
+          <input type="email" placeholder="Enter your email...">
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <h3>Contact Information</h3>
+      <p>Phone: 201-567-8989</p>
+      <p>Email: edmworld@gmail.com</p>
+      <p>EDM World, Copyright &copy; 2018</p>
+    </footer>
+  </body>
+</html>
